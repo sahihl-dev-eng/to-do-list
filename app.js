@@ -137,7 +137,7 @@ app.get("/about", function(req, res){
 });
 
 let port=process.env.Port;
-if(port==null || port=""){
+if(port==null || port==""){
   port=3000;
 }
 app.listen(port, function() {
